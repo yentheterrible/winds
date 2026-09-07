@@ -16,9 +16,6 @@ export function AutoParryShowcase() {
 
   return (
     <section className="py-24 relative overflow-hidden">
-      {/* Decorative gradient */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[600px] bg-primary/5 blur-[150px] pointer-events-none rounded-full"></div>
-
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center text-center">
           

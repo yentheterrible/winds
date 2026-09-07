@@ -14,7 +14,6 @@ import { CTA } from "@/components/sections/CTA";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground selection:bg-primary/30 relative isolate overflow-hidden">
-      <div className="ambient-backdrop" aria-hidden="true" />
       <Navbar />
       <main className="relative z-10 flex-grow">
         <Hero />

@@ -130,6 +130,9 @@
 
   body {
     @apply font-sans antialiased bg-background text-foreground;
+    background:
+      radial-gradient(circle at 50% 18%, hsl(338 30% 15%), transparent 46%),
+      linear-gradient(145deg, hsl(330 28% 4%), hsl(326 25% 7%) 50%, hsl(344 27% 4%));
   }
 
   *::-webkit-scrollbar {
@@ -157,16 +160,6 @@
 }
 
 @layer utilities {
-  .ambient-backdrop {
-    position: fixed;
-    inset: 0;
-    z-index: 0;
-    pointer-events: none;
-    background:
-      radial-gradient(circle at 50% 18%, hsl(338 30% 15%), transparent 46%),
-      linear-gradient(145deg, hsl(330 28% 4%), hsl(326 25% 7%) 50%, hsl(344 27% 4%));
-  }
-
   .winds-scrollbar {
     padding-bottom: 0.75rem;
     scrollbar-color: hsl(340 38% 48%) hsl(330 22% 10%);

@@ -18,7 +18,6 @@ export function Community() {
     <section id="community" className="relative overflow-hidden py-24">
       <div className="container relative z-10 mx-auto px-4 md:px-6">
         <div className="relative overflow-hidden border-y border-white/10 bg-card/30 px-6 py-12 md:px-12 md:py-16">
-          <div className="absolute -right-20 -top-24 h-72 w-72 rounded-full bg-primary/10 blur-3xl" />
           <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr] text-center">
             <div className="flex flex-col items-center">
               <div className="mb-6 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-primary">

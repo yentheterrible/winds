@@ -15,7 +15,6 @@ export function Hero() {
           </div>
 
           <div className="mb-8 relative animate-in zoom-in-95 duration-1000 delay-150 fill-mode-both">
-            <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full scale-150"></div>
             <img 
               src="/winds-logo.png" 
               alt="Winds" 

@@ -22,7 +22,6 @@ export function LoaderAccess() {
         </p>
 
         <div className="relative group mx-auto max-w-3xl text-left">
-          <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl blur opacity-50 group-hover:opacity-100 transition duration-500"></div>
           <div className="relative bg-[#0d0a0f] border border-white/10 rounded-2xl p-6 font-mono text-sm sm:text-base shadow-2xl">
             <div className="flex items-center justify-between mb-4 border-b border-white/5 pb-4">
               <div className="flex items-center gap-2 text-muted-foreground">

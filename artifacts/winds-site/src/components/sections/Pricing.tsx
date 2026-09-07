@@ -45,8 +45,7 @@ export function Pricing() {
           </div>
 
           {/* Lifetime */}
-          <div className="bg-gradient-to-b from-card/80 to-card/40 border border-primary/20 rounded-3xl p-8 shadow-2xl shadow-primary/10 flex flex-col h-full relative transform lg:-translate-y-4 text-center">
-            <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent rounded-t-3xl"></div>
+          <div className="bg-gradient-to-b from-card/80 to-card/40 border border-primary/20 border-t-4 border-t-primary rounded-3xl p-8 shadow-2xl shadow-primary/10 flex flex-col h-full relative transform lg:-translate-y-4 text-center">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full">
               PRIMARY CHOICE
             </div>
