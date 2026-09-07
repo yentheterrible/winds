@@ -84,7 +84,7 @@ export function Features() {
         <div className="mb-16 text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">Features</h2>
           <p className="text-muted-foreground text-lg">
-            Beyond parrying, Winds provides a complete suite of automation, visual enhancements, and protection systems.
+            The current feature set, grouped by the jobs you actually need to configure.
           </p>
         </div>
 

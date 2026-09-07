@@ -24,11 +24,11 @@ export function Hero() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
-            A powerful script built for <span className="text-gradient">precision.</span>
+            The Blade Ball toolkit for <span className="text-gradient">your setup.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-            Winds is a premium Blade Ball hub combining unrivaled Auto Parry, intelligent spam systems, and extensive detection features.
+            Configure parry timing, spam controls, detection alerts, and visual options from one compact interface. Start with the free loader or choose a paid access plan.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">

@@ -24,8 +24,6 @@ export function AutoParryShowcase() {
           
           <div className="order-2 lg:order-1">
             <div className="glass-panel rounded-3xl p-8 md:p-10 border border-white/10 shadow-2xl shadow-black/50 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-primary/20 blur-3xl"></div>
-              
               <div className="flex items-center justify-center gap-4 mb-8 pb-6 border-b border-white/5">
                 <div className="text-center">
                   <h4 className="font-semibold text-lg text-foreground">Auto Parry Configuration</h4>
@@ -54,14 +52,14 @@ export function AutoParryShowcase() {
               Core System
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Flawless Combat. <br/>
-              <span className="text-gradient">Total Dominance.</span>
+              Tune the timing. <br/>
+              <span className="text-gradient">Keep your options open.</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mx-auto">
-              The Winds Auto Parry system is engineered for absolute precision. From advanced curve detection to pre-simulation timing, every aspect is built to give you a definitive edge in Blade Ball.
+              Auto Parry brings timing controls, curve handling, and target selection into one place so you can adjust the setup to the match in front of you.
             </p>
             <p className="text-muted-foreground max-w-lg mx-auto">
-              Recently rewritten from the ground up, our logic handles dribbles, backwards curves, and complex targeting scenarios with mathematical accuracy.
+              The controls cover dribbles, backwards curves, distance modes, and notification preferences without burying the useful settings.
             </p>
           </div>
 

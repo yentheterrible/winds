@@ -9,7 +9,7 @@ export function FAQ() {
   const faqs = [
     {
       q: "What is Winds?",
-      a: "Winds is a feature-rich Blade Ball script hub focused on combat automation, parrying, spam systems, detection systems, visual features, customization, and more."
+      a: "Winds is a Blade Ball toolkit with controls for parrying, spam, detection alerts, visual options, and client customization."
     },
     {
       q: "What game does Winds support?",

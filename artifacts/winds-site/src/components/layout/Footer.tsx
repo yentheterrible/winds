@@ -9,7 +9,7 @@ export function Footer() {
               <span className="font-bold text-xl tracking-wide">Winds</span>
             </div>
             <p className="text-muted-foreground text-sm max-w-sm leading-relaxed text-center">
-              A premium, feature-rich Blade Ball script hub focused on combat automation, precision parrying, and client customization. Built for performance.
+              A focused Blade Ball toolkit for parry controls, automation, detection alerts, and client-side customization.
             </p>
             <div className="flex justify-center gap-4">
               <a 
