@@ -4,9 +4,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 export function Hero() {
   return (
     <section className="relative min-h-[100dvh] flex items-center justify-center pt-20 overflow-hidden">
-      {/* Atmospheric Background Elements */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-[120px] pointer-events-none mix-blend-screen"></div>
-      <div className="absolute top-1/3 left-1/3 w-[400px] h-[400px] bg-accent/20 rounded-full blur-[90px] pointer-events-none"></div>
+      <div className="hero-grid absolute inset-0 pointer-events-none" aria-hidden="true" />
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">

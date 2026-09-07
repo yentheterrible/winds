@@ -1,0 +1,7 @@
+{
+  "framework": "vite",
+  "installCommand": "corepack pnpm install --frozen-lockfile",
+  "buildCommand": "PORT=3000 BASE_PATH=/ corepack pnpm --filter @workspace/winds-site run build",
+  "outputDirectory": "artifacts/winds-site/dist/public",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
